@@ -1,0 +1,90 @@
+/* ============================
+   CSS Tutorial for Ethan
+   ============================ */
+
+/* Step 1: Style the Body */
+/* The `body` tag controls the entire page's style. 
+   - Add a background color.
+   - Set a clean font-family (try 'Arial', 'Verdana', or 'sans-serif').
+   - Add some padding so the content isn't too close to the edges.
+   - Set a default text color.
+*/
+
+/* Step 2: Style the Header */
+/* The `header` contains your name and contact info.
+   - Center the text in the header.
+   - Add a background color (try light gray or blue) to make it stand out.
+   - Add some space (padding) inside the header.
+   - Use a different font size for the h1 (your name) to make it stand out.
+   - Try changing the color of the h1.
+*/
+
+/* Example: 
+   Here's how you can style the header to get started.
+*/
+header {
+    text-align: center; /* Centers the text */
+    padding: 20px; /* Adds space around the content inside the header */
+    background-color: #f4f4f4; /* Light gray background for the header */
+  }
+  
+  /* Now, you can add styles to the h1 inside the header! */
+  
+  /* Step 3: Style the Header Info */
+  /* You have your name, email, and phone number inside the header.
+     - Add space between these items (hint: use margin).
+     - Change the font size to make the contact info smaller than your name.
+     - Try giving them a different color.
+  */
+  
+  /* Step 4: Style the Container */
+  /* The container holds everything (work experience, education).
+     - Set a maximum width so the content doesn’t get too wide on big screens.
+     - Center the container on the page.
+     - Add padding inside the container.
+     - Add a background color (maybe white or light blue) and some shadow to make it pop.
+     - Give the container rounded corners.
+  */
+  
+  /* Example: Here's a guide for centering and limiting the width of the container */
+  .container {
+    max-width: 800px; /* Keeps the container from getting too wide */
+    margin: 0 auto; /* Centers the container on the page */
+  }
+  
+  /* Now try adding a background color, padding, and other styles! */
+  
+  /* Step 5: Style the Education and Work Experience Sections */
+  /* The education and work experience sections are important.
+     - Add some space between each job or school (hint: use margin or padding).
+     - Give each section a light background to separate them.
+     - You can add a border or a colored line on the left to make each section stand out.
+     - Try adding a hover effect so the background changes when you move your mouse over the section.
+  */
+  
+  /* Step 6: Style the Text */
+  /* Text is one of the most important parts of a resume.
+     - For the school or company names, make the text bold or use a larger font.
+     - Add spacing between the paragraphs to make everything easy to read.
+     - For completed tasks or important details, change the color of the text to something that stands out (maybe blue or green).
+  */
+  
+  /* Step 7: Research Resources */
+  /* To help you figure out what each CSS property does and how to use it, try looking up:
+     - 'CSS font-family' to see how to change the font.
+     - 'CSS padding vs margin' to learn about spacing inside and around elements.
+     - 'CSS hover effect' to make things change when you hover over them.
+     - 'CSS box-shadow' to make sections stand out with shadows.
+  
+     You can use websites like:
+     - MDN Web Docs (https://developer.mozilla.org/en-US/)
+     - W3Schools (https://www.w3schools.com/css/)
+     - CSS-Tricks (https://css-tricks.com/)
+  */
+  
+  /* Step 8: Mobile Friendly Design (Optional)
+  /* If you want to make the page look good on phones, try using media queries.
+     - Look up 'CSS media queries' and learn how to make the text and layout smaller when the screen gets too small.
+     - You can start by setting a maximum width of 600px and reducing font sizes.
+  */
+  
